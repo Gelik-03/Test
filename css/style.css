@@ -1,10 +1,37 @@
-header {
-  background-color: black;
-}
 body {
-  color: black;
-  font-style: 15px;
+  background-color: rgb(205, 205, 236);
 }
-.ran{
-	color:aquamarine;
+h1 {
+  text-align: center;
+  margin-top: 0px;
+  font-size: 20px;
+}
+h4,
+.hobby {
+  display: inline;
+}
+p {
+  margin-top: 3px;
+  margin-bottom: 6px;
+}
+p,
+label {
+  color: rgb(16, 13, 32);
+  font-size: 16px;
+  font-family: Cambria, serif;
+  font-weight: 700;
+}
+input {
+  margin-bottom: 1px;
+}
+div.container {
+  background-color: rgb(153, 153, 241);
+  border: 3px solid;
+  border-radius: 15px;
+  width: 40%;
+  margin: 0px auto;
+  padding: 25px;
+}
+.datacolor {
+  font-weight: 600;
 }

@@ -8,6 +8,67 @@
 </head>
 
 <body>
+	<form action="#" method="POST" enctype="multipart/form-data" >
+		<div class="container">
+			<h1>Форма</h1>
+				<div>
+					<label>Имя</label>
+					<p><input tabindex="1" placeholder="Введите имя" type="text" name="Username"></p>
+				</div>
+				<div>
+					<label>Пароль</label>
+					<p><input tabindex="2" placeholder="Введите пароль" type="password" name="Password"></p>
+				</div>
+				<div>
+					<label>Телефон</label>
+					<p><input tabindex="3" type="tel" name="Phone"></p>
+				</div>
+				<div>
+					<label>Дата рождения</label>
+					<input class="datacolor" type="date" name="Date">
+				</div>
+				<div>
+					<p class="">Пол</p>
+					<h4><input tabindex="4" type="radio" name="gender" value="male">Женский</h4>
+					<h4><input tabindex="4" type="radio" name="gender" value="female">Мужской</h4>
+				</div>
+				<div class="hobby">
+					<p>Хобби</p>
+					<div>
+						<input tabindex="5" type="checkbox" name="sport" value="yes">Спорт
+					</div>
+					<div>
+						<input tabindex="6" type="checkbox" name="music" value="yes">Музыка
+					</div>
+					<div>
+						<input tabindex="7" type="checkbox" name="books" value="yes">Книги
+					</div>
+				</div>
+				<div>
+					<p>Любимый цвет</p>
+					<select name="color">
+						<option  value="red">Красный</option>
+						<option  value="yellow">Желтый</option>
+						<option  value="green">Зелёный</option>
+						<option value="black">Черный</option>
+						<option selected value="white">Белый</option>
+					</select>
+				</div>
+				<div>
+					<p>Прикрепить фото</p>
+					<input  type="file">
+				</div>
+				<div>
+					<p>Пожелания</p>
+					<textarea tabindex="8" name="text"></textarea>
+				</div>
+				
+				<div>
+					<button tabindex="9" type="submit">Отправить</button>
+					<button tabindex="10" type="reset">Очистить</button>
+				</div>
+		</div>
+	</form>
 </body>
 
 </html>
